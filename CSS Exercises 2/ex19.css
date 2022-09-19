@@ -1,0 +1,83 @@
+.basictransition {
+    width: 100px;
+    height: 100px;
+    background-color:  #14e44e; 
+}
+.basictransition:hover {
+    width: 150px;
+    height: 150px;
+    background-color:  #134bd4;
+}
+
+.transition-delay {
+    width: 100px;
+    height: 100px;
+    background-color:  #14e44e; 
+    -webkit-transition-property:width, height, background ;
+    -webkit-transition-delay: 1s;
+    transition-property:width, height, background ;
+    transition-delay: 1s;
+}
+.transition-delay:hover {
+    width: 150px;
+    height: 150px;
+    background-color:  #134bd4;
+}
+.transition-delay {
+    width: 100px;
+    height: 100px;
+    background-color:  #14e44e; 
+    -webkit-transition-property:width, height, background;
+    -webkit-transition-delay: 1s;
+    transition-property:width, height, background ;
+    transition-duration: 1s;
+}
+.transition-delay:hover {
+    width: 150px;
+    height: 150px;
+    background-color:  #134bd4;
+}
+.transition-duration {
+    width: 100px;
+    height: 100px;
+    background-color:  #14e44e; 
+    -webkit-transition-property:width, height, background;
+    -webkit-transition-duration: 3s;
+    transition-property:width, height, background ;
+    transition-duration: 3s;
+}
+.transition-duration:hover {
+    width: 150px;
+    height: 150px;
+    background-color:  #134bd4;
+}
+
+.transition-timing {
+    width: 100px;
+    height: 100px;
+    background-color:  #14e44e; 
+    -webkit-transition-property:width, height, background;
+    -webkit-transition-duration: 3s;
+    -webkit-transition-timing-function:ease;
+    transition-property:width, height, background ;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+.transition-timing:hover {
+    width: 150px;
+    height: 150px;
+    background-color:  #134bd4;
+}
+.transition-shorthand {
+    width: 100px;
+    height: 100px;
+    background-color:  #14e44e; 
+    -webkit-transition:width 3s ease 1s, height 3s ease 1s, background 3s ease 1s;
+    transition:width 3s ease 1s, height 3s ease 1s, background 3s ease 1s;
+
+}
+.transition-shorthand:hover {
+    width: 150px;
+    height: 150px;
+    background-color:  #134bd4;
+}
