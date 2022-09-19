@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*CSS for ex21b */
+
+.bluebox {
+	background-color: #B2D6FF; 
+	text-align: center;
+    width: 200px;
+	height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+	margin: 5px;
+}
+
+.centertext {
+	text-align: center;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.menu {
+  height: 100px;
+  background-color: #B2D6FF; 
+}
+
+.sidebar {
+	float:left;
+ 	height: 300px;
+	width: 200px;
+	background-color: #F09A9D; 
+	border-radius: 20px;
+}
+
+.content {
+	float:right;
+	height: 500px;
+	width: 600px;
+ 	background-color: #F5CF8E; 
+	border-radius: 20px;
+}
+
+.footer {
+	clear:both;
+ 	height: 100px;
+	background-color: #D6E9FE; 
+}
