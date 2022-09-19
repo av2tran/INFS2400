@@ -1,0 +1,28 @@
+ /*
+ stylesheet for ex14
+ */
+
+ h1 {
+color: darkolivegreen;
+
+ }
+
+ p {
+    color: cadetblue;
+    
+     } 
+
+     .header {
+
+        color: coral;
+     }
+
+     .academicinfo {
+
+        color: black;
+     }
+
+    #version, #difficulty {
+
+        color: dimgray;
+    }

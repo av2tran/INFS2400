@@ -1,0 +1,85 @@
+.solid {
+
+    border-style: solid;
+}
+
+.dotted {
+    border-style: dotted;
+}
+.dashed {
+    border-style: dashed;
+}
+.double{
+    border-style: double;
+}
+.stylemix {
+    border-style: solid dotted dashed double;
+}
+.topwidth {
+    border-style: solid;
+    border-top-width: 20px;
+}
+.rightwidth {
+    border-style: solid;
+    border-right-width: 20px;
+}
+.bottomwidth {
+    border-style: solid;
+    border-bottom-width: 20px;
+}
+.leftwidth {
+    border-style: solid;
+    border-left-width: 20px;
+}
+.widthmix {
+    border-style: solid;
+    border-width: 30px 5px 15px 10px ;
+}
+
+
+
+.topcolor {
+    border-style: solid;
+    border-top-width: 10px;
+    border-top-color: darkblue;
+}
+.rightcolor {
+    border-style: solid;
+    border-right-width: 10px;
+    border-right-color: darkblue;
+}
+.bottomcolor {
+    border-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: darkblue;
+}
+.leftcolor {
+    border-style: solid;
+    border-left-width: 10px;
+    border-left-color: darkblue;
+}
+.colormix {
+    border-style: solid;
+    border-width: thick ;
+    border-color: blue green yellow orange;
+}
+.rounded {
+    border-style: solid;
+    border-width: thick;
+    border-color: green;
+    border-radius: 10px;
+}
+.stitched {
+    font: Segoe,"Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,"sans-serif" ;
+    padding: 20px;
+    margin:20px;
+    background: darkgreen;
+    color: beige;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px dashed beige;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px darkgreen, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px black;
+}

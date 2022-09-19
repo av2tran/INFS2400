@@ -1,0 +1,63 @@
+.color {
+
+    color:darkgreen;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+.alignright{ 
+    text-align: right;
+}
+
+.aligncenter {
+    text-align: center;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+.morelineheight {
+    line-height: 1.2;
+}
+.lesslineheight {
+    line-height: 0.8;
+}
+.moreletterspacing {
+    letter-spacing: 2px;
+}
+.lessletterspacing {
+    letter-spacing: -2px;
+}
+.morewordspacing {
+    word-spacing: 2px;
+}
+.lesswordspacing {
+    word-spacing: -2px;
+}
+.shadows {
+    text-shadow:2px 3px 3px blue ;
+}
+.fontfamily1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fontfamily2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.fontsizept {
+    font-size: 200%;
+}
+.fontsizeem {
+    font-size: 2em;
+}
+.fontsizepx {
+    font-size: 32px;
+}
